@@ -1,0 +1,82 @@
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.96
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Jul 24 2019 13:00:10 UTC
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.96.0
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Linux
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            3.10.0-327.el7.x86_64
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             /sydt/java/jdk1.8.0_131/jre
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_131-b11
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         /sydt/tomcat/apache-tomcat-7.0.96
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         /sydt/tomcat/apache-tomcat-7.0.96
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=/sydt/tomcat/apache-tomcat-7.0.96/conf/logging.properties
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dignore.endorsed.dirs=
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=/sydt/tomcat/apache-tomcat-7.0.96
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=/sydt/tomcat/apache-tomcat-7.0.96
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=/sydt/tomcat/apache-tomcat-7.0.96/temp
+九月 19, 2019 4:51:02 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+九月 19, 2019 4:51:02 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+九月 19, 2019 4:51:02 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 398 ms
+九月 19, 2019 4:51:02 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+九月 19, 2019 4:51:02 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.96
+九月 19, 2019 4:51:02 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/ROOT
+九月 19, 2019 4:51:59 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [56,775] milliseconds.
+九月 19, 2019 4:51:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/ROOT has finished in 57,016 ms
+九月 19, 2019 4:51:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/host-manager
+九月 19, 2019 4:51:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/host-manager has finished in 65 ms
+九月 19, 2019 4:51:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/manager
+九月 19, 2019 4:51:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/manager has finished in 54 ms
+九月 19, 2019 4:51:59 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/Esun
+九月 19, 2019 4:51:59 下午 org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+信息: validateJarFile(/sydt/tomcat/apache-tomcat-7.0.96/webapps/Esun/WEB-INF/lib/geronimo-servlet_2.5_spec-1.2.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+九月 19, 2019 4:52:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/Esun has finished in 4,903 ms
+九月 19, 2019 4:52:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/docs
+九月 19, 2019 4:52:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/docs has finished in 20 ms
+九月 19, 2019 4:52:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/examples
+九月 19, 2019 4:52:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory /sydt/tomcat/apache-tomcat-7.0.96/webapps/examples has finished in 94 ms
+九月 19, 2019 4:52:04 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+九月 19, 2019 4:52:04 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+九月 19, 2019 4:52:04 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 62193 ms
